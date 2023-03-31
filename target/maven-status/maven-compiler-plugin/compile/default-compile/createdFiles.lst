@@ -1,0 +1,11 @@
+com\education\testCases\SeleniumWait.class
+com\education\utilities\Reporting.class
+com\education\testCases\Tiers.class
+com\education\testCases\Getpage$1.class
+com\education\utilities\ReadConfig.class
+com\education\testCases\BaseUI.class
+com\education\testCases\ObjectFileReader$1.class
+com\education\testCases\Locators.class
+com\education\testCases\Getpage.class
+com\education\testCases\ObjectFileReader.class
+com\education\testCases\BaseClass.class

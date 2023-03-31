@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [orange01]">
+  <listeners>
+    <listener class-name="com.education.utilities.Reporting"/>
+  </listeners>
+  <test name="orangeHRM(failed)">
+    <classes>
+      <class name="com.education.runners.LoginPageValidation">
+        <methods>
+          <include name="bookFreeDemoElementAction__05"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.education.runners.LoginPageValidation -->
+    </classes>
+  </test> <!-- orangeHRM(failed) -->
+</suite> <!-- Failed suite [orange01] -->
