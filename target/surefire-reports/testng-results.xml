@@ -47,20 +47,27 @@
       <![CDATA[ASSERTION PASSED: element submitButton is displayed.]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-03-31T06:36:59Z" name="orange01" finished-at="2023-03-31T06:37:31Z" duration-ms="31669">
+  <suite started-at="2023-04-04T04:10:10Z" name="orange01" finished-at="2023-04-04T04:10:30Z" duration-ms="19516">
     <groups>
     </groups>
-    <test started-at="2023-03-31T06:36:59Z" name="orangeHRM" finished-at="2023-03-31T06:37:31Z" duration-ms="31669">
+    <test started-at="2023-04-04T04:10:10Z" name="orangeHRM" finished-at="2023-04-04T04:10:30Z" duration-ms="19516">
       <class name="com.education.runners.LoginPageValidation">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.education.runners.LoginPageValidation@6c64cb25]" started-at="2023-03-31T12:06:59Z" name="setup" finished-at="2023-03-31T12:07:09Z" duration-ms="9511" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.education.runners.LoginPageValidation@5158b42f]" started-at="2023-04-04T09:40:10Z" name="setup" finished-at="2023-04-04T09:40:23Z" duration-ms="12756" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest__01()[pri:1, instance:com.education.runners.LoginPageValidation@6c64cb25]" started-at="2023-03-31T12:07:09Z" name="loginTest__01" finished-at="2023-03-31T12:07:09Z" duration-ms="596" status="PASS">
+        <test-method signature="loginTest__01()[pri:1, instance:com.education.runners.LoginPageValidation@5158b42f]" started-at="2023-04-04T09:40:23Z" name="loginTest__01" finished-at="2023-04-04T09:40:24Z" duration-ms="376" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest__01 -->
-        <test-method signature="logTestPageElementValidation__02()[pri:2, instance:com.education.runners.LoginPageValidation@6c64cb25]" started-at="2023-03-31T12:07:09Z" name="logTestPageElementValidation__02" finished-at="2023-03-31T12:07:10Z" duration-ms="1087" status="PASS">
+        <test-method signature="logTestPageElementValidation__02()[pri:2, instance:com.education.runners.LoginPageValidation@5158b42f]" started-at="2023-04-04T09:40:24Z" name="logTestPageElementValidation__02" finished-at="2023-04-04T09:40:25Z" duration-ms="1864" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[ASSERTION PASSED: element PlatformElement is displayed.]]>
@@ -94,11 +101,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- logTestPageElementValidation__02 -->
-        <test-method signature="bookFreeDemoTitleValidation__03()[pri:3, instance:com.education.runners.LoginPageValidation@6c64cb25]" started-at="2023-03-31T12:07:10Z" name="bookFreeDemoTitleValidation__03" finished-at="2023-03-31T12:07:14Z" duration-ms="3482" status="PASS">
+        <test-method signature="bookFreeDemoTitleValidation__03()[pri:3, instance:com.education.runners.LoginPageValidation@5158b42f]" started-at="2023-04-04T09:40:25Z" name="bookFreeDemoTitleValidation__03" finished-at="2023-04-04T09:40:29Z" duration-ms="3152" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookFreeDemoTitleValidation__03 -->
-        <test-method signature="bookFreeDemoElementValidation__04()[pri:4, instance:com.education.runners.LoginPageValidation@6c64cb25]" started-at="2023-03-31T12:07:14Z" name="bookFreeDemoElementValidation__04" finished-at="2023-03-31T12:07:14Z" duration-ms="566" status="PASS">
+        <test-method signature="bookFreeDemoElementValidation__04()[pri:4, instance:com.education.runners.LoginPageValidation@5158b42f]" started-at="2023-04-04T09:40:29Z" name="bookFreeDemoElementValidation__04" finished-at="2023-04-04T09:40:30Z" duration-ms="880" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[ASSERTION PASSED: element yourFullName is displayed.]]>
@@ -117,7 +124,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- bookFreeDemoElementValidation__04 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.education.runners.LoginPageValidation@6c64cb25]" started-at="2023-03-31T12:07:14Z" name="tearDown" finished-at="2023-03-31T12:07:31Z" duration-ms="16298" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.education.runners.LoginPageValidation@5158b42f]" started-at="2023-04-04T09:40:30Z" name="tearDown" finished-at="2023-04-04T09:40:30Z" duration-ms="166" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

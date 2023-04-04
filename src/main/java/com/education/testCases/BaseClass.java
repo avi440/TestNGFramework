@@ -23,6 +23,8 @@ import org.testng.annotations.Parameters;
 
 import com.education.utilities.ReadConfig;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 
 public class BaseClass {
 	public static int PAGE_LOAD_TIMEOUT = 20;
@@ -55,8 +57,12 @@ public class BaseClass {
 	
 
 	
+//	@BeforeClass
+//	public void setup() {
+	
+	@Parameters("browser")
 	@BeforeClass
-	public void setup() {
+	public void setup(String br ) {
 		
 		delectScreenshortFiles();
 		logger =  Logger.getLogger("orange01");
@@ -66,16 +72,19 @@ public class BaseClass {
 		 
 		 if(br.equals("chrome")) {
 		System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY, "true");
-		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/driver/chromedriver.exe");
+//		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/driver/chromedriver.exe");
+		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		 }
 		 else if(br.equals("firefox")) {
-			 System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/driver/geckodriver.exe");
+//			 System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/driver/geckodriver.exe");
+			 WebDriverManager.firefoxdriver().setup();
 				driver = new FirefoxDriver();
 			 
 		 }
          else if(br.equals("ie")) {
-        	 System.setProperty("webdriver.ie.driver", System.getProperty("user.dir") + "/driver/IEDriverServer.exe");
+//        	 System.setProperty("webdriver.ie.driver", System.getProperty("user.dir") + "/driver/IEDriverServer.exe");
+        	 WebDriverManager.edgedriver().setup();
      		driver = new InternetExplorerDriver();
      		
 		 }
