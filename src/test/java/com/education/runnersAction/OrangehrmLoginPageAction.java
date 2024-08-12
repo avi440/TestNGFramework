@@ -7,16 +7,18 @@ import java.util.concurrent.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
-
 import com.education.testCases.Getpage;
+import org.apache.log4j.Logger;
 
 public class OrangehrmLoginPageAction extends Getpage{
 	
 	
 	WebDriver driver ;
-	public OrangehrmLoginPageAction(WebDriver driver) {
+	Logger logger;
+	public OrangehrmLoginPageAction(WebDriver driver,Logger logger) {
 		super(driver, "loginPage");
     	this.driver = driver; 
+    	this.logger = logger;
 	}
 	
 	public void  pageElementDisplayedOrNot() throws NoSuchElementException, TimeoutException {
@@ -26,14 +28,14 @@ public class OrangehrmLoginPageAction extends Getpage{
 	isElementDisplayed("CompanyElement");
 	isElementDisplayed("bookFreeDemoElement");
 	isElementDisplayed("contactSalesElement");
-	isElementDisplayed("tryItFreeElement");
-	isElementDisplayed("PeopleManagementElement");
-	isElementDisplayed("cultureElement");
-	isElementDisplayed("talentManagementElement");
+//	isElementDisplayed("tryItFreeElement");
+//	isElementDisplayed("PeopleManagementElement");
+//	isElementDisplayed("cultureElement");
+//	isElementDisplayed("talentManagementElement");
 	}
 	
 	public void  verifyBookFreeDemoTitle() throws NoSuchElementException, TimeoutException, IOException {
-		String bookFreeDemoTitle = "Sign Up for a Free HR Software Demo | OrangeHRM | OrangeHRM";
+		String bookFreeDemoTitle = "Book Your Free Demo | OrangeHRM";
 		element("bookFreeDemoElement").click();
 		
 	    

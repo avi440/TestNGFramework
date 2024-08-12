@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [orange01]">
+<suite name="Failed suite [orange01]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="com.education.utilities.Reporting"/>
   </listeners>
   <test name="orangeHRM(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
       <class name="com.education.runners.LoginPageValidation">
         <methods>
-          <include name="bookFreeDemoElementAction__05"/>
+          <include name="logTestPageElementValidation__02"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
