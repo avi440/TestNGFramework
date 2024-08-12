@@ -11,11 +11,12 @@ import org.testng.annotations.Test;
 import com.education.runnersAction.OrangehrmLoginPageAction;
 import com.education.testCases.BaseClass;
 
+
 public class LoginPageValidation extends BaseClass  {
 	
 	
 	
-	String title = "OrangeHRM HR Software | Free & Open Source HR Software | HRMS | HRIS | OrangeHRM";
+	String title = "Human Resources Management Software | OrangeHRM";
 //	String title = "OrangeHRM";
 	
 	
@@ -23,7 +24,7 @@ public class LoginPageValidation extends BaseClass  {
 	@Test(priority=1)
 	public void loginTest__01() throws IOException, NoSuchElementException, TimeoutException {
 		
-		 test = new OrangehrmLoginPageAction(driver);
+		 test = new OrangehrmLoginPageAction(driver, logger);
        
 	if (driver.getTitle().equalsIgnoreCase(title)) {
 		Assert.assertTrue(true);

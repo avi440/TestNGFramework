@@ -20,18 +20,6 @@
       <![CDATA[ASSERTION PASSED: element contactSalesElement is displayed.]]>
     </line>
     <line>
-      <![CDATA[ASSERTION PASSED: element tryItFreeElement is displayed.]]>
-    </line>
-    <line>
-      <![CDATA[ASSERTION PASSED: element PeopleManagementElement is displayed.]]>
-    </line>
-    <line>
-      <![CDATA[ASSERTION PASSED: element cultureElement is displayed.]]>
-    </line>
-    <line>
-      <![CDATA[ASSERTION PASSED: element talentManagementElement is displayed.]]>
-    </line>
-    <line>
       <![CDATA[ASSERTION PASSED: element yourFullName is displayed.]]>
     </line>
     <line>
@@ -47,20 +35,27 @@
       <![CDATA[ASSERTION PASSED: element submitButton is displayed.]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-03-31T06:33:55Z" name="orange01" finished-at="2023-03-31T06:34:29Z" duration-ms="34090">
+  <suite started-at="2024-08-12T07:11:06Z" name="orange01" finished-at="2024-08-12T07:11:22Z" duration-ms="16984">
     <groups>
     </groups>
-    <test started-at="2023-03-31T06:33:55Z" name="orangeHRM" finished-at="2023-03-31T06:34:29Z" duration-ms="34090">
+    <test started-at="2024-08-12T07:11:06Z" name="orangeHRM" finished-at="2024-08-12T07:11:22Z" duration-ms="16984">
       <class name="com.education.runners.LoginPageValidation">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.education.runners.LoginPageValidation@2898ac89]" started-at="2023-03-31T12:03:55Z" name="setup" finished-at="2023-03-31T12:04:06Z" duration-ms="10891" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.education.runners.LoginPageValidation@4a8355dd]" started-at="2024-08-12T12:41:06Z" name="setup" finished-at="2024-08-12T12:41:14Z" duration-ms="8180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest__01()[pri:1, instance:com.education.runners.LoginPageValidation@2898ac89]" started-at="2023-03-31T12:04:06Z" name="loginTest__01" finished-at="2023-03-31T12:04:06Z" duration-ms="564" status="PASS">
+        <test-method signature="loginTest__01()[pri:1, instance:com.education.runners.LoginPageValidation@4a8355dd]" started-at="2024-08-12T12:41:14Z" name="loginTest__01" finished-at="2024-08-12T12:41:15Z" duration-ms="530" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest__01 -->
-        <test-method signature="logTestPageElementValidation__02()[pri:2, instance:com.education.runners.LoginPageValidation@2898ac89]" started-at="2023-03-31T12:04:06Z" name="logTestPageElementValidation__02" finished-at="2023-03-31T12:04:07Z" duration-ms="992" status="PASS">
+        <test-method signature="logTestPageElementValidation__02()[pri:2, instance:com.education.runners.LoginPageValidation@4a8355dd]" started-at="2024-08-12T12:41:15Z" name="logTestPageElementValidation__02" finished-at="2024-08-12T12:41:17Z" duration-ms="1950" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[ASSERTION PASSED: element PlatformElement is displayed.]]>
@@ -80,25 +75,13 @@
             <line>
               <![CDATA[ASSERTION PASSED: element contactSalesElement is displayed.]]>
             </line>
-            <line>
-              <![CDATA[ASSERTION PASSED: element tryItFreeElement is displayed.]]>
-            </line>
-            <line>
-              <![CDATA[ASSERTION PASSED: element PeopleManagementElement is displayed.]]>
-            </line>
-            <line>
-              <![CDATA[ASSERTION PASSED: element cultureElement is displayed.]]>
-            </line>
-            <line>
-              <![CDATA[ASSERTION PASSED: element talentManagementElement is displayed.]]>
-            </line>
           </reporter-output>
         </test-method> <!-- logTestPageElementValidation__02 -->
-        <test-method signature="bookFreeDemoTitleValidation__03()[pri:3, instance:com.education.runners.LoginPageValidation@2898ac89]" started-at="2023-03-31T12:04:07Z" name="bookFreeDemoTitleValidation__03" finished-at="2023-03-31T12:04:12Z" duration-ms="4810" status="PASS">
+        <test-method signature="bookFreeDemoTitleValidation__03()[pri:3, instance:com.education.runners.LoginPageValidation@4a8355dd]" started-at="2024-08-12T12:41:17Z" name="bookFreeDemoTitleValidation__03" finished-at="2024-08-12T12:41:21Z" duration-ms="4339" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookFreeDemoTitleValidation__03 -->
-        <test-method signature="bookFreeDemoElementValidation__04()[pri:4, instance:com.education.runners.LoginPageValidation@2898ac89]" started-at="2023-03-31T12:04:12Z" name="bookFreeDemoElementValidation__04" finished-at="2023-03-31T12:04:13Z" duration-ms="520" status="PASS">
+        <test-method signature="bookFreeDemoElementValidation__04()[pri:4, instance:com.education.runners.LoginPageValidation@4a8355dd]" started-at="2024-08-12T12:41:21Z" name="bookFreeDemoElementValidation__04" finished-at="2024-08-12T12:41:22Z" duration-ms="1272" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[ASSERTION PASSED: element yourFullName is displayed.]]>
@@ -117,7 +100,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- bookFreeDemoElementValidation__04 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.education.runners.LoginPageValidation@2898ac89]" started-at="2023-03-31T12:04:13Z" name="tearDown" finished-at="2023-03-31T12:04:29Z" duration-ms="16170" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.education.runners.LoginPageValidation@4a8355dd]" started-at="2024-08-12T12:41:22Z" name="tearDown" finished-at="2024-08-12T12:41:22Z" duration-ms="224" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

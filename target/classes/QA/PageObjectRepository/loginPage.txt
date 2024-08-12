@@ -4,9 +4,9 @@ page title:Orange Editorial Systems - Login page
 # Object Definitions 
 ===============================================================================================================================
 
-PlatformElement                                      xpath                  //li[@class='nav-item']/a[text()='Platform']
+PlatformElement                                      xpath                  //li[@class='nav-item']/a[text()='Solutions']
 WhyOrangeHRMElement                                  xpath                  //li[@class='nav-item']/a[text()='Why OrangeHRM']
-ResourcesElement                                     xpath                  //li[@class='nav-item']/a[text()='Company']
+ResourcesElement                                     xpath                  //li[@class='nav-item']/a[text()='Resources']
 CompanyElement                                       xpath                  //li[@class='nav-item']/a[text()='Company']
 bookFreeDemoElement                                  xpath                  //div[@class='d-flex web-menu-btn']//button[text()='Book a Free Demo']
 contactSalesElement                                  xpath                  //div[@class='d-flex web-menu-btn']//button[text()='Contact Sales']
